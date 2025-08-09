@@ -1,0 +1,61 @@
+# Python cache files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pkl
+
+# Django stuff
+*.log
+*.pot
+*.pyc
+*.pyo
+*.db
+*.sqlite3
+*.mo
+local_settings.py
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# PostgreSQL dumps
+*.sql
+*.psql
+
+# Media uploads
+/media/
+uploads/
+
+# Static files (collected)
+staticfiles/
+static/
+
+# VS Code settings
+.vscode/
+*.code-workspace
+
+# macOS system files
+.DS_Store
+
+# Windows system files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Backup files
+*.bak
+*.swp
+*.swo
+*.tmp
+~*
+
+# Pipenv
+Pipfile.lock
+
+# Virtual environment
+venv/
+env/
+ENV/
+.venv/
